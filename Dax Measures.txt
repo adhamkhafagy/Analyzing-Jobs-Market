@@ -1,0 +1,10 @@
+1- % Skill in Posting = [Skill Count] / [Posting Count]
+
+2- Average of Average Pay = AVERAGE('Job Postings'[Average Pay])
+
+3- Posting Count = COUNT('Job Postings'[Job Posting ID])
+
+4-Skill Count = COUNT('Job Skills'[Job Skills])
+
+5- Average Pay = ('Job Postings'[Maximum Pay] + 'Job Postings'[Minimum Pay]) / 2
+
