@@ -46,3 +46,31 @@ To evaluate penetration density and salary distributions efficiently across high
 * **Salary Standardization Baseline:**
 ```dax
 Average Pay = ('Job Postings'[Maximum Pay] + 'Job Postings'[Minimum Pay]) / 2
+```
+
+* **Market Salary Aggregation:**
+```dax
+Average of Average Pay = AVERAGE('Job Postings'[Average Pay])
+```
+
+* **Skill Demand Penetration Rate:**
+```dax
+% Skill in Posting = [Skill Count] / [Posting Count]
+```
+
+## 💡 Key Analytical Insights
+**The Core Technical Trio:** Across the entire data ecosystem, SQL, Python, and Cloud Infrastructure (AWS/Azure) emerge as non-negotiable fundamentals, maintaining the highest market density.
+
+***Role-Specific Penetration:** Job matrix filtering reveals that SQL is mandatory for database-heavy roles, showing up in 73.13% of Data Analyst roles and 90.23% of Data Architect roles.
+
+**Hiring Trajectories:** Volume trend monitoring demonstrates a massive acceleration in mid-to-senior level recruitment from late 2019 onwards, reflecting rapid enterprise digital adoption.
+
+**The Experience Premium:** Operational analytics show a stark variance in experience prerequisites; Executive roles demand a baseline average of nearly 15 years of experience, whereas Entry-level positions remain accessible at under 2 years.
+
+## 📂 Repository Structure
+
+├── Visuals/               # Home.png, Jobs_Overview.png, Skills_Overview.png, Company_Overview.png
+├── DataSearch_Model.pbix  # Complete Power BI Desktop File
+└── README.md              # Project Documentation
+
+
