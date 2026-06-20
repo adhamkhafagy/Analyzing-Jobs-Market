@@ -3,7 +3,7 @@
 # DataSearch: Data Science Job Market Insights
 
 ## 📋 Project Overview
-DataSearch is a dynamic Power BI business intelligence solution designed to track, analyze, and uncover macroeconomic trends within the data science and tech employment sectors from 2017 through 2021. 
+DataSearch is a dynamic Power BI Report designed to track, analyze, and uncover macroeconomic trends within the data science and tech employment sectors from 2017 through 2021. 
 
 By analyzing thousands of job postings, this project provides actionable insights into salary shifts, global talent demand patterns, company distribution across major industries, and critical technical skills needed for roles such as Data Analysts, Data Engineers, and Data Scientists.
 
