@@ -67,10 +67,14 @@ Average of Average Pay = AVERAGE('Job Postings'[Average Pay])
 
 **The Experience Premium:** Operational analytics show a stark variance in experience prerequisites; Executive roles demand a baseline average of nearly 15 years of experience, whereas Entry-level positions remain accessible at under 2 years.
 
-## 📂 Repository Structure
+---
 
-├── Visuals/               # Home.png, Jobs_Overview.png, Skills_Overview.png, Company_Overview.png
-├── DataSearch_Model.pbix  # Complete Power BI Desktop File
-└── README.md              # Project Documentation
+## 📂 Repository Structure
+```text
+├── Datasets/                 # Raw or cleaned tech sector job market data files
+├── Visuals/                  # Home.png, Jobs_Overview.png, Skills_Overview.png, Company_Overview.png
+├── Dax Measures.txt          # Complete library of DAX calculations used in the report
+├── Jobs Market Analysis.pbix # Complete interactive Power BI Desktop File
+└── README.md                 # Project Documentation
 
 
